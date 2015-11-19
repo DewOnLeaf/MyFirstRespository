@@ -13,5 +13,6 @@
 @property (nonatomic, copy) NSString *str1;
 @property (nonatomic, copy) NSString *str2;
 @property (nonatomic, assign) NSInteger a;
+@property (nonatomic, copy) NSString *str3;
 
 @end
