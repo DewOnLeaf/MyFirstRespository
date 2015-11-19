@@ -22,6 +22,9 @@ static NSString * const reuse = @"reuse";
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:reuse];
     
+    self.str1 = @"aa";
+    self.str2 = @"bb";
+    self.a = 10;
 }
 
 - (void)didReceiveMemoryWarning {
